@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+* {
+    margin: 0;
+    padding: 0;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-image img {
+    height: auto;
+    width: auto;
+    object-fit: cover;
+}
+.hero-content {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.btn {
+    padding: 10px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.btn a {
+    text-decoration: none;
+    color: white;
+}
